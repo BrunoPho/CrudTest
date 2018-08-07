@@ -39,12 +39,12 @@
          ?>
 
           <tr>
-              <td> <?=$pessoa["nome"]       ?> </td>
-              <td> <?=$pessoa["nascimento"] ?> </td>
-              <td> <?=$pessoa["telefone"]   ?> </td>
-              <td> <?=$pessoa["endereco"]   ?> </td>
-              <td> Editar                      </td>
-              <td> Excluir                     </td>
+              <td> <?= $pessoa ["nome"]       ?> </td>
+              <td> <?= $pessoa ["nascimento"] ?> </td>
+              <td> <?= $pessoa ["telefone"]   ?> </td>
+              <td> <?= $pessoa ["endereco"]   ?> </td>
+              <td> Editar                        </td>
+              <td> Excluir                       </td>
           </tr>
         </tbody>
     </table>
