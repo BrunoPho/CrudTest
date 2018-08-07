@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Tempo de geração: 07/08/2018 às 15:58
+-- Tempo de geração: 07/08/2018 às 16:33
 -- Versão do servidor: 5.7.21-0ubuntu0.16.04.1
 -- Versão do PHP: 7.0.22-0ubuntu0.16.04.1
 
@@ -41,7 +41,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nome`, `nascimento`, `endereco`, `telefone`, `email`, `senha`) VALUES
-(1, 'Bruno', '0000-00-00', '', '', '', '');
+(1, 'Bruno', '0000-00-00', '', '', '', ''),
+(6, 'Lara', '2003-02-12', 'Rua Silva', '47996647979', 'lara@gmail.com', '123');
 
 --
 -- Índices de tabelas apagadas
@@ -61,7 +62,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT de tabela `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -23,9 +23,10 @@
            <tr>
                <th> Nome       </th>
                <th> Nascimento </th>
-               <th> Telefone   </th>
                <th> Endereço   </th>
+               <th> Telefone   </th>
                <th> Email      </th>
+               <th> Senha      </th>
                <th> Editar     </th>
                <th> Excluir    </th>
            </tr>
@@ -35,14 +36,17 @@
         <?php
 
         foreach ($grupo as $pessoa){
+
         }
          ?>
 
           <tr>
               <td> <?= $pessoa ["nome"]       ?> </td>
               <td> <?= $pessoa ["nascimento"] ?> </td>
-              <td> <?= $pessoa ["telefone"]   ?> </td>
               <td> <?= $pessoa ["endereco"]   ?> </td>
+              <td> <?= $pessoa ["telefone"]   ?> </td>
+              <td> <?= $pessoa ["email"]      ?> </td>
+              <td> <?= $pessoa ["senha"]      ?> </td>
               <td> Editar                        </td>
               <td> Excluir                       </td>
           </tr>
