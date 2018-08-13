@@ -36,7 +36,7 @@
         <?php
 
         foreach ($grupo as $pessoa){
-
+           echo $pessoa;
         }
          ?>
 
